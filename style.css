@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.content {
+    flex: 1;
+}
+ .container {
+        flex-direction: column;
+        text-align: center;
+    }
